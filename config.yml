@@ -1,0 +1,9 @@
+includePaths: []
+stylesheets:
+ - https://fonts.googleapis.com/css?family=PT+Sans&display=swap
+ - /main.css
+javascripts: []
+deploy:
+  server:
+  path:
+base_url: http://change-me-in-config-yml.com

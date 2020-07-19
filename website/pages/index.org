@@ -1,0 +1,12 @@
+---
+title: home
+---
+
+* About
+I'm Adam. I'm the lead software developer at webeo. I also write code for fun
+and sometimes have opinions about things. If they're interesting enough I might
+write about them here. Feel free to tell me if I'm wrong, this is the internet
+after all.
+
+The code for this site is available here, and if you're interested in how I
+write and publish it, I've written about it here.

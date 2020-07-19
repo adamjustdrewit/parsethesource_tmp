@@ -1,0 +1,49 @@
+---
+title: This is a title
+abstract: This blog post is a blog post
+created_at: 2020-05-11
+tit: tit
+---
+* This is the first blog title
+Some text will go here describing some things. Doom is pretty cool, not as cool
+as emacs but it's up there. It looks like the org mode stuff in it is pretty
+sweet, it's auto wrapping and doing spelling for me which is nice. I suppose it
+won't work as well on windows but that's to be expected. Maybe I can contribute
+to the project
+
+** Maybe some code?
+
+This code does some stuff. If you're cool, it can do other things...
+
+#+BEGIN_SRC  javascript
+const thing = new Thing();
+thing.doAThing();
+#+END_SRC
+
+** Also some text
+
+Here is some text looking all nice, we can do numbered lists:
+1) Item one
+2) 2
+3) III
+4) FOUR
+
+And here is an unordered list:
+- Item 1
+- Item 5
+- [X] Ticked
+- [ ] Not ticked
+
+
+** Maybe some more text?
+
+Org mode lets you do some cool stuff with text like _underline_ *Bold*
+ =var inlineCodeBlock()= /italics/ and others like +strikethrough+.
+
+** Tables
+| Title        | Value | Maybe some more        |
+|--------------+-------+------------------------|
+| Wow          |   123 | Interesting            |
+| More wow     |    32 | But not as interesting |
+| antother wow |   432 | Woooow                 |
+** an image

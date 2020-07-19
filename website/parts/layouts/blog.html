@@ -1,0 +1,55 @@
+<import navigation from="navigation.html" />
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{website.title || 'A new website by Kulfon'</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link href="https://unpkg.com/prismjs@1/themes/prism-solarizedlight.css" rel="stylesheet" />
+        <for stylesheet of stylesheets>
+            <link rel="stylesheet" href="{ stylesheet | unescape }" />
+        </for>
+    </head>
+    <body>
+
+        <navigation />
+
+        <main>
+            <article class="entry">
+                <div class="parappa-thinboi">
+                    <slot />
+                </div>
+            </article>
+            <section id="contact">
+                <div class="parappa">
+                    <h2 class="section-title">contact</h2>
+                    <div>
+                        <a href="mailto:adam@parsethesource.com" class="email">
+                            <svg>
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/>
+                            </svg>
+                            adam@parsethesource.com
+                        </a>
+                        <a href="https://twitter.com/adamdrew91" class="twitter">
+                            <svg viewBox="0 0 400 400">
+                                <path class="cls-2" d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"/>
+                            </svg>
+                            adamdrew91</a>
+                        <a href="https://github.com/adamjustdrewit" class="git">
+                            <svg viewBox="0 0 114.01 114.01">
+                                <path d="M111.78,51.977,62.035,2.2381c-2.8622-2.8648-7.5082-2.8648-10.374,0l-10.329,10.33,13.102,13.102c3.0459-1.0284,6.5371-0.33888,8.9639,2.0884,2.4394,2.4424,3.124,5.9634,2.0698,9.0195l12.628,12.628c3.0551-1.0528,6.58-0.37262,9.0195,2.0712,3.4106,3.4096,3.4106,8.9345,0,12.345-3.4111,3.4116-8.936,3.4116-12.349,0-2.5645-2.5665-3.1988-6.3345-1.8999-9.4942l-11.777-11.777-0.001,30.991c0.8315,0.41162,1.6162,0.961,2.3091,1.6509,3.4096,3.4092,3.4096,8.9331,0,12.348-3.4106,3.4091-8.938,3.4091-12.345,0-3.4101-3.4146-3.4101-8.9385,0-12.348,0.84275-0.84125,1.8179-1.478,2.8584-1.9048v-31.279c-1.041-0.425-2.015-1.057-2.859-1.905-2.583-2.581-3.2051-6.372-1.8804-9.5439l-12.916-12.918-34.106,34.105c-2.8657,2.867-2.8657,7.513,0,10.378l49.742,49.739c2.8638,2.8648,7.5082,2.8648,10.376,0l49.512-49.504c2.8648-2.8662,2.8648-7.5136,0-10.379"/>
+                            </svg>
+                            adamjustdrewit
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+        <for javascript of javascripts>
+            <script type="text/javascript" src="{ javascript | unescape }"></script>
+        </for>
+    </body>
+</html>
